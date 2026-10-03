@@ -1,7 +1,7 @@
-const passport = require("passport");
-const bcrypt = require("bcryptjs");
-const LocalStrategy = require('passport-local').Strategy;
-const pool = require("../db/pool");
+const passport = require('passport');
+//const bcrypt = require("bcryptjs");
+//const LocalStrategy = require('passport-local').Strategy;
+//const pool = require("../db/pool");
 
 // passport.use(
 //   new LocalStrategy(
@@ -39,4 +39,4 @@ const pool = require("../db/pool");
 //   }
 // });
 
-module.exports = passport
+module.exports = passport;
