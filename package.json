@@ -4,8 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "tailwindcss -i ./src/input.css -o ./public/css/output.css --watch"
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/css/output.css --watch",
+    "build:css:prod": "tailwindcss -i ./src/input.css -o ./public/css/output.css --minify"
   },
   "repository": {
     "type": "git",
